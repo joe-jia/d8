@@ -1,0 +1,20 @@
+name: Petition
+description: 'Petition categories'
+type: module
+core: 8.x
+dependencies:
+  - block
+  - ctools
+  - ctools_block
+  - datetime
+  - field
+  - menu_ui
+  - node
+  - path
+  - pathauto
+  - system
+  - taxonomy
+  - text
+  - user
+  - views
+version: 8.x-1.0

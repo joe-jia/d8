@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Petition Category'
+vid: petition_category
+description: 'Petition Categories'
+hierarchy: 0
+weight: 0

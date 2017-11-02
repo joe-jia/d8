@@ -1,0 +1,36 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - ctools_block
+  theme:
+    - news
+id: category
+theme: news
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'entity_field:node:field_category'
+settings:
+  id: 'entity_field:node:field_category'
+  label: 'Visa Classes'
+  provider: ctools_block
+  label_display: '0'
+  formatter:
+    label: hidden
+    type: entity_reference_entity_view
+    settings:
+      view_mode: default
+    third_party_settings: {  }
+    weight: 0
+  context_mapping:
+    entity: '@node.node_route_context:node'
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      petition: petition
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

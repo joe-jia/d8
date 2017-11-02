@@ -1,0 +1,9 @@
+{
+  "name": "wmq/wmq_dev_test",
+  "type": "drupal-module",
+  "description": "Drupal WMQ development test.",
+  "homepage": "https://gitlab.com/wmqld/dev-test-d8",
+  "license": "GPL-2.0+",
+  "require": {},
+  "minimum-stability": "dev"
+}

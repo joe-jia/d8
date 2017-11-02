@@ -1,0 +1,7 @@
+name: 'WMQ Test'
+description: 'Drupal WMQ development test.'
+type: module
+core: 8.x
+dependencies:
+  - system
+version: 8.x-1.0

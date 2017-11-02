@@ -1,0 +1,16 @@
+/**
+ * Custom CSS
+ * Use this file to override styles if you feel uncomfortable editing
+ * component stylesheets.
+ ============================================================================ */
+
+.col-md-6 {
+	width: 50%;
+	float: left;
+}
+
+.petition__item .field-entity-reference-type-taxonomy-term.field-label-above .field__item {
+	display: block;
+}
+
+

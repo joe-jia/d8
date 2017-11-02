@@ -1,0 +1,21 @@
+{
+  "name": "wmq-policy-dev-test-d8",
+  "version": "1.0.0",
+  "description": "You don't have to complete the whole test. Complete as much as you think necessary to demonstrate your skills.",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "node-sass": "^4.5.3",
+    "sass-lint": "^1.10.2"
+  },
+  "scripts": {
+    "compile": "node-sass scss/style.scss css/style.css",
+    "sasslint": "sass-lint -c .sass-lint.yml 'scss/**/*.scss' --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab1.wmb.local/con-vroudakov/dev-test-d8.git"
+  },
+  "author": "Wesley Mission Queensland",
+  "license": "MIT"
+}
